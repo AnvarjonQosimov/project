@@ -1,15 +1,16 @@
 import "./App.css"
-import createLogo from "./createlogo.webp"
+import CreateLogo from "./createlogo.webp"
 import { MdOutlinePerson2 } from "react-icons/md";
 import { MdOutlineArticle } from "react-icons/md";
 import { MdSlowMotionVideo } from "react-icons/md";
 import { MdOutlinePodcasts } from "react-icons/md";
 import { FaAngleDown } from "react-icons/fa";
-import podcastimg from "./article.jpg"
+import Podcastimg from "./article.jpg"
 import { CiCalendar } from "react-icons/ci";
 import { MdOutlineWatchLater } from "react-icons/md";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { FaSquareCheck } from "react-icons/fa6";
+import Footer from "./Footer.png"
 
 
 
@@ -19,7 +20,7 @@ function App() {
     <div className="App">
       <section id="Header" className="Header">
       <div className="logo">
-        <img src={<createLogo />} alt="" />
+        <img src={<CreateLogo />} alt="" />
       </div>
 
       <div className="menu">
@@ -67,7 +68,7 @@ function App() {
           <div className="blogcardthree">
             <div className="img">
               <h6><i><MdOutlinePodcasts /></i> Podcast</h6>
-              <img src={<podcastimg />} alt="" />
+              <img src={Podcastimg} alt="" />
             </div>
 
             <div className="imgcardheader">
@@ -75,7 +76,7 @@ function App() {
             </div>
 
             <div className="imgcardabout">
-              <h3>What is traffic arbitrage and does it really make money?</h3>
+              <h4>What is traffic arbitrage and does it really make money?</h4>
               <h6>Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</h6>
             </div>
 
@@ -87,7 +88,7 @@ function App() {
           <div className="blogcardthree">
             <div className="img">
               <h6><i><MdOutlineArticle /></i> Article</h6>
-              <img src={<podcastimg />} alt="" />
+              <img src={Podcastimg} alt="" />
             </div>
 
             <div className="imgcardheader">
@@ -95,7 +96,7 @@ function App() {
             </div>
 
             <div className="imgcardabout">
-              <h3>What is traffic arbitrage and does it really make money?</h3>
+              <h4>What is traffic arbitrage and does it really make money?</h4>
               <h6>Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</h6>
             </div>
 
@@ -107,7 +108,7 @@ function App() {
           <div className="blogcardthree">
             <div className="img">
               <h6><i><MdSlowMotionVideo /></i> Video</h6>
-              <img src={<podcastimg />} alt="" />
+              <img src={Podcastimg} alt="" />
             </div>
 
             <div className="imgcardheader">
@@ -115,7 +116,7 @@ function App() {
             </div>
 
             <div className="imgcardabout">
-              <h3>What is traffic arbitrage and does it really make money?</h3>
+              <h4>What is traffic arbitrage and does it really make money?</h4>
               <h6>Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</h6>
             </div>
 
@@ -127,7 +128,7 @@ function App() {
           <div className="blogcardthree">
             <div className="img">
             <h6><i><MdOutlineArticle /></i> Article</h6>
-            <img src={<podcastimg />} alt="" />
+            <img src={Podcastimg} alt="" />
             </div>
             <div className="imgcardheader">
               <h6>Marketing | <i><CiCalendar /></i> September 4, 2020</h6>
@@ -146,7 +147,7 @@ function App() {
               <div className="blogcardthree">
               <div className="img">
               <h6><i> <MdSlowMotionVideo /></i> Video</h6>
-              <img src={<podcastimg />} alt="" />
+              <img src={Podcastimg} alt="" />
             </div>
 
             <div className="imgcardheader">
@@ -154,8 +155,8 @@ function App() {
             </div>
 
             <div className="imgcardabout">
-              <h3>What to do and who to talk to if you want to get feedback on the product</h3>
-              <h6>Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus. Curabitur nisl tincidunt eros venenatis...</h6>
+              <h4>What is traffic arbitrage and does it really make money?</h4>
+              <h6>Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</h6>
             </div>
 
             <div className="imggo">
@@ -166,7 +167,7 @@ function App() {
               <div className="blogcardthree">
             <div className="img">
               <h6><i><MdOutlinePodcasts /></i> Podcast</h6>
-              <img src={<podcastimg />} alt="" />
+              <img src={Podcastimg} alt="" />
             </div>
 
             <div className="imgcardheader">
@@ -174,7 +175,7 @@ function App() {
             </div>
 
             <div className="imgcardabout">
-              <h3>What is traffic arbitrage and does it really make money?</h3>
+              <h4>What is traffic arbitrage and does it really make money?</h4>
               <h6>Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</h6>
             </div>
 
@@ -186,7 +187,7 @@ function App() {
           <div className="blogcardthree">
             <div className="img">
               <h6><i><MdOutlineArticle /></i> Article</h6>
-              <img src={<podcastimg />} alt="" />
+              <img src={Podcastimg} alt="" />
             </div>
 
             <div className="imgcardheader">
@@ -194,7 +195,7 @@ function App() {
             </div>
 
             <div className="imgcardabout">
-              <h3>What is traffic arbitrage and does it really make money?</h3>
+              <h4>What is traffic arbitrage and does it really make money?</h4>
               <h6>Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</h6>
             </div>
 
@@ -206,7 +207,7 @@ function App() {
           <div className="blogcardthree">
             <div className="img">
               <h6><i><MdSlowMotionVideo /></i> Video</h6>
-              <img src={<podcastimg />} alt="" />
+              <img src={Podcastimg} alt="" />
             </div>
 
             <div className="imgcardheader">
@@ -214,7 +215,7 @@ function App() {
             </div>
 
             <div className="imgcardabout">
-              <h3>What is traffic arbitrage and does it really make money?</h3>
+              <h4>What is traffic arbitrage and does it really make money?</h4>
               <h6>Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</h6>
             </div>
 
@@ -225,7 +226,13 @@ function App() {
         </div>
 
         <div className="blogprew">
-          <h6>1 2 3 4 <i><FaLongArrowAltRight /></i></h6>
+          <div className="h6">
+          <h6>1</h6>
+          <h6>2</h6>
+          <h6>3</h6>
+          <h6>4</h6>
+          <h6><i><FaLongArrowAltRight /></i></h6>
+          </div>
         </div>
       </section>
 
@@ -242,6 +249,11 @@ function App() {
         <div className="accept">
           <h6><i><FaSquareCheck /></i> I agree to receive communications from Createx Online School</h6>
         </div>
+      </section>
+
+      <section className="contact" id="contact">
+        <img src={Footer} alt="" />
+        <input type="text" />
       </section>
     </div>
   )
